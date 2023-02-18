@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduction Website</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawosome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section start  -->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt="" /></a>
+        <div class="nav_link" id="navLink">
+          <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">course</a></li>
+            <li><a href="">blog</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>title line hear</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero
+          aliquid neque, dolores eveniet suscipit consequatur quod odio quas
+        </p>
+        <a href="" class="btn">more learn</a>
+      </div>
+    </section>
+    <!-- header section end  -->
+
+    <!-- course start  -->
+    <section class="course">
+      <h2>we are offer for you</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+        architecto necessitatibus impedit maxime officiis corrupti.
+      </p>
+      <div class="box-continer">
+        <div class="box">
+          <h3>intermideate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            dolore impedit temporibus veniam animi aliquam debitis excepturi eum
+            consectetur consequatur!
+          </p>
+        </div>
+        <div class="box">
+          <h3>graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            dolore impedit temporibus veniam animi aliquam debitis excepturi eum
+            consectetur consequatur!
+          </p>
+        </div>
+        <div class="box">
+          <h3>post-graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            dolore impedit temporibus veniam animi aliquam debitis excepturi eum
+            consectetur consequatur!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- course end  -->
+
+    <!-- cumpas start ---------------------------------->
+    <section class="cumpas">
+      <h1>Globally our cumpase</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ea
+        molestiae, tenetur tempora unde quaerat.
+      </p>
+      <div class="cumpas-continer">
+        <div class="img">
+          <img
+            src="eduford_img/london.png" alt=""/>
+            <h1>london</h1>
+        </div>
+        <div class="img">
+          <img
+            src="eduford_img/washington.png" alt=""/>
+            <h1>washington</h1>
+        </div>
+        <div class="img">
+          <img
+            src="eduford_img/newyork.png" alt=""/>
+            <h1>newyork</h1>
+        </div>
+      </div>
+    </section>
+    <!-- cumpas end ---------------------------------->
+
+    <script>
+      var navLink = document.getElementById("navLink");
+
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
